@@ -12,3 +12,13 @@ head.fillStyle = "rgb(22, 23, 24)";
 head.fill();
 head.strokeStyle = "white";
 head.stroke();
+
+den.addEventListener("mousemove", (e) => {
+    head.clearRect(0, 0, den.width, den.height);
+    head.beginPath();
+    head.arc(e.offsetX + 20, e.offsetY + 20, 10, 0, Math.PI * 2);
+    head.fillStyle = "rgb(22, 23, 24)";
+    head.fill();
+    head.strokeStyle = "white";
+    head.stroke();
+})
