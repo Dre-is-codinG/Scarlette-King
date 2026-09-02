@@ -12,4 +12,5 @@ canvas {
     display: block;
     margin: 0;
     padding: 0;
+    cursor: url("../scarletteKing/assets/planet-earth-cursor.png"), auto;
 }
